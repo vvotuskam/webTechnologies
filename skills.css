@@ -1,0 +1,142 @@
+nav {
+    width: 960px;
+    margin: 0;
+}
+nav:before {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+.navbar {
+    list-style: none;
+    height: 50px;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    color: black;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-decoration: none;
+    line-height: 50px;
+}
+.navbar li a:hover {
+    background-color: aquamarine;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.skills-container {
+    width: 1510px;
+    height: 700px;
+    background-color: aquamarine;
+    font-family: Verdana;
+    text-decoration: none;
+}
+.title {
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.skills-1 {
+    display: inline;
+    list-style: none;
+    position: relative;
+    text-decoration: none;
+}
+.skills-2 {
+    float: left;
+    list-style: none;
+    display: inline;
+    position: relative;
+    left: 950px;
+    top: -370px;
+}
+.skill1 {
+    position: relative;
+    background-color: aquamarine;
+    top: 100px;
+    left: 20px;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+}
+.skill2 {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.skill3 {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.skill4 {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.skill5 {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.skill6 {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.skill1:hover {
+    background-color: rgb(183, 255, 231);
+}
+.skill2:hover {
+    background-color: rgb(183, 255, 231);
+}
+.skill3:hover {
+    background-color: rgb(183, 255, 231);
+}
+.skill4:hover {
+    background-color: rgb(183, 255, 231);
+}
+.skill5:hover {
+    background-color: rgb(183, 255, 231);
+}
+.skill6:hover {
+    background-color: rgb(183, 255, 231);
+}

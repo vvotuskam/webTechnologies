@@ -1,0 +1,139 @@
+nav {
+    width: 960px;
+    margin: 0;
+}
+nav:before {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul {
+    list-style: none;
+    height: 50px;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    color: black;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-decoration: none;
+    line-height: 50px;
+}
+ul li a:hover {
+    background-color: aquamarine;
+}
+
+.about-me {
+    font-family: sans-serif;
+}
+.about-me img {
+    position: relative;
+    left: 20px;
+    height: 700px;
+    float: left;
+}
+.about-me .name-developer {
+    float: right;
+    display: block;
+    width: 960px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.about-me .name-developer b {
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-family: Verdana;
+    font-size: 90px;
+}
+.about-me .name-developer i {
+    position: relative;
+    left: 40px;
+    top: 50px;
+    font-family: Verdana;
+    font-size: 50px;
+}
+.about-me .about-me-text {
+    position: relative;
+    top: 40px;
+    text-align: justify;
+    float: right;
+    display: block;
+    width: 980px;
+    height: 150px;
+}
+.about-me .about-me-text b {
+    text-decoration: underline;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+.about-me .about-me-text .text {
+    position: relative;
+    width: 900px;
+    left: 40px;
+    top: 40px;
+    font-family: Verdana;
+    font-size: 15px;
+}
+.about-me .about-me-data {
+    background-color: aquamarine;
+    font-family: sans-serif;
+    position: relative;
+    top: 40px;
+    text-align: justify;
+    float: right;
+    display: block;
+    width: 960px;
+    height: 210px;
+}
+.about-me .about-me-data .location {
+    width: 200px;
+    position: relative;
+    top: 40px;
+    left: 370px;
+    text-align: center;
+}
+.about-me .about-me-data .location img {
+    width: 20px;
+    height: 20px;
+}
+
+.about-me .about-me-data .phone {
+    width: 200px;
+    position: relative;
+    top: 70px;
+    left: 355px;
+    text-align: center;
+}
+.about-me .about-me-data .phone img {
+    width: 20px;
+    height: 20px;
+}
+.about-me .about-me-data .email img {
+    position: relative;
+    left: 00px;
+    width: 20px;
+    height: 20px;
+}
+.about-me .about-me-data .email {
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 345px;
+    text-align: center;
+}
+.skills {
+    position: relative;
+    top: 700px;
+}

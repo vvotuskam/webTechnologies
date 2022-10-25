@@ -1,0 +1,349 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+    font-family: 'Poppins';
+}
+.containers {    
+    position: relative;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+.form {
+    position: absolute;
+    width: 430px;
+    height: 666px;
+    left: 123px;
+    top: 132px;
+}
+/* Text container*/
+.text-container {
+    width: 332px;
+    height: 121px;
+    left: 123px;
+    top: 132px;
+    padding-bottom: 20px;
+}
+.text-container .login-text {
+    width: 332px;
+    height: 54px;
+    left: 123px;
+    top: 199px;
+}
+.text-container .login-text .have-account {
+    width: 332px;
+    height: 24px;
+    left: 123px;
+    top: 199px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+.text-container .login-text .login-here {
+    width: 308px;
+    height: 24px;
+    left: 123px;
+    top: 229px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+.login-here a {
+    text-decoration: none;
+}
+.text-container .sign-up {
+    width: 112px;
+    height: 45px;
+    left: 123px;
+    top: 132px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.container {
+    width: 429px;
+    height: 64px;
+    padding-bottom: 42px;
+}
+.container-name {
+    left: 0%;
+    right: 84.15%;
+    top: 0%;
+    bottom: 68.75%;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #999999;
+}
+.container-group {
+    display: flex;
+}
+.container-icon {
+    left: 0px;
+    top: 33px;
+    padding-right: 11px;
+}
+.container-icon img {
+    width: 16px;
+    height: 16px;
+}
+.container-text {
+    left: 27px;
+    top: 31px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000842;
+}
+.container-invisible1 {
+    padding-left: 50%;
+}
+.container-invisible2 {
+    padding-left: 45%;
+}
+.container-rect {
+    left: 0%;
+    right: 0%;
+    top: 96.88%;
+    bottom: 0%;
+    width: 429px;
+    height: 2px;
+    
+    background: #999999;
+}
+.register-button button {
+    width: 429px;
+    height: 53px;
+    left: 124px;
+    top: 745px;
+    
+    background: #0C21C1;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+/* Saly */
+.picture {
+    position: absolute;
+    visibility: visible;
+    width: 735px;
+    height: 859px;
+    left: 683px;
+    top: 21px;
+    background: #000842;
+    border-radius: 15px;    
+    color:#FFFFFF;    
+}
+.phone {
+    position: absolute;
+    display: flex;
+    width: 160px;
+    height: 23px;
+    left: 565px;
+    top: 24px;
+}
+.phone-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+.saly-picture {
+    width: 546px;
+    height: 699px;
+    padding-left: 100px; 
+}
+.saly-text {
+    width: 396px;
+    height: 94px;
+    padding-top: 84px;
+}
+.saly-text b {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+.saly-text .lorem {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+.saly {
+    width: 521px;
+    height: 521px;
+    padding-left: 30px;
+}
+
+/* logo */
+.logo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 42px;
+    padding-top: 31px;
+}
+
+/* registered */
+.registered {
+    visibility: hidden;
+    position: relative;
+    left: 620px;
+    top: 30vh;
+    display: flex;
+    border: #000000 1px solid;
+    width: 210px;
+    height: 50px;
+    background-color: #000842;
+    border-radius: 10px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.registered .text {
+    padding-right: 10px;
+}
+.registered button {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+i {
+    font-size: 15px;
+    cursor: pointer;
+    padding-left: 5px;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 500px) {
+    .picture {
+        visibility: hidden;
+    }
+    .text-container {    
+        width: 341px;
+    }
+    .form {
+        width: 341px;
+        height: 666px;
+        left: 26px;
+        top: 100px;
+    }
+    .container {
+        width: 320px;
+        height: 64px;
+        padding-bottom: 42px;
+    }
+    .container-name {
+        
+        width: 300px;
+        height: 20px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height */
+        color: #999999;
+    }
+    .container-group {
+        display: flex;
+    }
+    .container-icon {
+        left: 0px;
+        top: 33px;
+        padding-right: 11px;
+    }
+    .container-icon img {
+        width: 16px;
+        height: 16px;
+    }
+    .container-text {
+        width: 300px;
+        left: 27px;
+        top: 31px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        /* identical to box height */
+        
+        
+        color: #000842;
+    }
+    .container-rect {
+        left: 0%;
+        right: 0%;
+        top: 96.88%;
+        bottom: 0%;
+        width: 319px;
+        height: 2px;
+        
+        background: #999999;
+    }
+    .register-button button {
+        width: 319.26px;
+        height: 53px;
+        left: 124px;
+        top: 745px;
+        
+        background: #0C21C1;
+        box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+        border-radius: 32px;
+        border: none;
+        color: #FFFFFF;
+        font-family: 'Poppins';
+    }
+    .registered {
+        visibility: hidden;
+    }
+    .registered .text {
+        padding-right: 10px;
+    }
+    .registered button {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+}

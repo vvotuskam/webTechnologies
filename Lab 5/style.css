@@ -1,0 +1,59 @@
+.calculator {
+    margin: 5vh auto 0 auto;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(150, 150, 150);
+    border: 1px solid;
+}
+#display {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    left: 25px;
+    top: 25px;
+    background-color: aliceblue;
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    line-height: 40px;
+}
+#text {
+    line-height: 45px;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    margin-right: 15px;
+}
+.buttons {
+    position: relative;
+    width: 350px;
+    height: 475px;
+    left: 25px;
+    top: 50px;
+}
+.btn {
+    position: relative;
+    left: 7px;
+    top: 25px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    border: 1px solid;
+    transition: all 0.5s ease;
+}
+#delete {
+    width: 165px;
+}
+#clear {
+    width: 163px;
+}
+#equal {
+    background-color: orange;
+}
+.btn:hover {
+    background-color: #b1b1b1;
+    color: white;
+    border: #323330;
+    transition: 0.1s ease-in-out;
+}
